@@ -1,0 +1,218 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+body {background-color:#FAFAFA;    text-align: center; color: #8B8B8B; font-family: Montserrat ;
+}
+
+
+
+h1 {color: #000000;
+font-size: 28px;
+font-weight: bold;
+letter-spacing: 0;
+line-height: 37px;
+margin:0;  
+text-align: center;
+}
+
+hr {border-top: solid;
+    width: 60px;
+    height: 2px;
+    color:#407BFF;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 30px;
+}
+
+h2 {color: #000000;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+    }
+
+p { font-size: 16px;
+    font-family: Montserrat ;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 21px;
+    }
+
+.icon {color: #8B8B8B;
+    font-size: 13px;
+    font-family: Montserrat ;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 17px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    display: flex;
+    border-radius: 10px;
+    width: 460px;
+    height: 80px;
+    align-items: center;
+    margin:auto;
+    }
+
+.icons1 {margin-bottom: 60px;}
+
+.button {color: #FFFFFF;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18px;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    padding-top: 11px;
+
+}
+
+.pic {height: 45px;
+    width: 40px;
+margin-left: 20px;
+margin-right: 28.62px;
+margin-top: 20px;
+margin-bottom: 20px;}
+
+.dobrodruzstvi {background-color: #407BFF;
+width: 195px;
+height: 40px;
+text-align: center;
+margin-bottom: 10px;}
+
+.pohoda {background-color: #8B8B8B;
+width: 220px;
+height: 40px;
+text-align: center;
+margin-bottom: 60px;
+}
+
+.traveler{ width: 350px;
+    height: auto ;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    margin-bottom: 39.5px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 640px)
+{
+.icons1, .icons2 {display: flex;
+justify-content: space-around;}
+
+.icons1 {margin-bottom: 80px;}
+
+.buttons {width: 435px;
+    display: flex;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 60px;
+    }
+
+.button, .pohoda, .dobrodruzstvi {margin: 0;
+}
+
+.dobrodruzstvi {margin-right: 20px;}
+
+
+.icon {width: 230px;
+height: 172px;
+margin-left: 20px;
+display: block;}
+
+.pic {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left:95px;
+    margin-right:95px;
+
+}
+
+}
+
+@media screen and (min-width: 1100px)
+{
+
+.buttons {text-align: start;
+margin: 0;
+margin-top: 41px;}
+
+hr {margin-left: 0;}
+
+h1, h2 {text-align: start;
+}
+
+.traveler {min-width: 425px;
+min-height: 354px;
+margin-top: 60px;
+margin-bottom: 0;}
+
+.block1 {display: flex;
+    width: 1040px;
+    margin: auto;
+    margin-bottom: 80px;
+    
+    }
+
+.traveler {order: 2;}
+
+.icon {width: 170px;
+    height: 191px;
+
+}
+
+.pic {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left:65px;
+    margin-right:65px;}
+
+.block1a {width: 664px;
+    min-height: 110px;
+    text-align: start;
+    margin-right: 60px;
+    margin-top: 195px;
+    
+ }
+
+ .block2 {display: flex;
+    width: 1040px;
+    margin: auto;
+    margin-bottom: 80px;
+ }
+
+ .podnadpis {order: 3;
+text-align: start;
+margin-left: 60px;
+margin-top: 40px;}
+
+
+ .block3 {display: flex;
+    width: 1040px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.delegati {text-align: start;
+margin-right: 60px;
+margin-top: 40px;}
+
+.icons1, .icons2 {width: 550px;
+    margin-bottom: 0;}
+
+
+
+
+
+
+}
+
